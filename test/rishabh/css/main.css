@@ -1,0 +1,88 @@
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	padding: 0px;
+	background: black;
+}
+#scene1 , #scene2, #scene3, #scene4, #scene5, #scene6, #flash, #scene7, #scene8 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#scene1 {
+	background-image: url('scene1.png');
+	will-change: all;
+	z-index: 0;
+}
+#scene2 {
+	background-image: url('scene2.png');
+	will-change: all;
+	display: none;
+	z-index: 10;
+}
+#scene3 {
+	background-image: url('scene3.png');
+	will-change: all;
+	display: none;
+	z-index: 50;
+}
+#scene4 {
+	background-image: url('scene4.png');
+	will-change: all;
+	display: none;
+	z-index: 100;
+}
+#scene5 {
+	background-image: url('scene5.png');
+	will-change: all;
+	display: none;
+	z-index: 150;
+}
+#scene6 {
+	background-image: url('scene6.png');
+	will-change: all;
+	display: none;
+	z-index: 200;
+}
+#scene7 {
+	background-image: url('scene7.png');
+	will-change: all;
+	display: none;
+	z-index: 250;
+}
+#scene8 {
+	background-image: url('scene8.png');
+	will-change: all;
+	display: none;
+	z-index: 300;
+}
+
+#flash {
+	background-image: url('flash.png');
+	will-change: all;
+	opacity: 0;
+	z-index: 150;
+}
+.choices {
+	position: fixed;
+	top: 70%;
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	padding-top: 60px;
+	display: none;
+	z-index: 500;
+}
+.label {
+	background: rgba(255, 0, 0, 0.5);
+	border: 0px solid;
+	padding: 10px;
+	margin-right: 20px;
+	color: white;
+}
